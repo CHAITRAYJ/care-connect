@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8CCBE"
+    tools:context=".MainActivity4">
+
+    <Button
+        android:id="@+id/bNext"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Next"
+        android:background="@color/white"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/show"
+        app:layout_constraintEnd_toStartOf="@+id/bView"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <ListView
+        android:id="@+id/show"
+        android:layout_width="381dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="154dp"
+        android:textColor="#0314F8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="390dp"
+        android:layout_height="42dp"
+        android:gravity="center_horizontal"
+        android:text="Patient Information"
+        android:textAlignment="center"
+        android:textColor="#0314F8"
+        android:textSize="35dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/show"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"  />
+
+    <Button
+        android:id="@+id/bView"
+        android:layout_width="154dp"
+        android:layout_height="50dp"
+        android:text="View Data"
+        android:background="@color/white"
+        android:textSize="25sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/show"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.7"/>
+
+    <Button
+        android:id="@+id/bBack"
+        android:layout_width="154dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.954" />
+</androidx.constraintlayout.widget.ConstraintLayout>

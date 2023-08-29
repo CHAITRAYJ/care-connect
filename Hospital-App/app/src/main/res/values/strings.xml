@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bed Booking App</string>
+    <string name="submit">Submit</string>
+    <string name="sg_home">Home</string>
+    <string name="sg_gmail_com">abc@gmail.com</string>
+    <string name="enter_your_phone">Enter Your Phone</string>
+    <string name="enter_your_address">Enter Your Address</string>
+    <string name="enter_your_age">Enter Your Age</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="bed_booking_app">Bed Booking App</string>
+    <string name="home">Home</string>
+    <string name="abc_gmail_com">abc@gmail.com</string>
+    <string name="health_news">Health News</string>
+    <string name="next">Next</string>
+    <string name="enter_date">Enter date in DDMMYY</string>
+</resources>

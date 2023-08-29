@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5BEE8"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:gravity="center_horizontal"
+                android:text="@string/home"
+                android:textAlignment="center"
+                android:textColor="#EC3A04"
+                android:textSize="45sp"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/edName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:ems="10"
+                android:textColorHint="#000000"
+                android:hint="@string/enter_your_name"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                android:autofillHints=""  />
+
+            <EditText
+                android:id="@+id/edAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:ems="10"
+                android:hint="@string/enter_your_age"
+                android:maxLength="2"
+                android:textSize="25sp"
+                android:textColorHint="#000000"
+                android:inputType="number"
+                android:autofillHints=""  />
+
+            <EditText
+                android:id="@+id/edAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:ems="10"
+                android:hint="@string/enter_your_address"
+                android:textSize="25sp"
+                android:textColorHint="#000000"
+                android:inputType="textPostalAddress"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/edPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:ems="10"
+                android:textColorHint="#000000"
+                android:hint="@string/enter_your_phone"
+                android:maxLength="10"
+                android:textSize="25sp"
+                android:inputType="phone"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/edEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:ems="10"
+                android:hint="@string/abc_gmail_com"
+                android:textSize="25sp"
+                android:textColorHint="#000000"
+                android:inputType="textEmailAddress"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/edDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:ems="10"
+                android:hint="@string/enter_date"
+                android:textSize="25sp"
+                android:textColorHint="#000000"
+                android:inputType="date"
+                android:autofillHints="" />
+
+            <Button
+                android:id="@+id/bSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:background="@color/white"
+                android:text="@string/submit"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic|bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
